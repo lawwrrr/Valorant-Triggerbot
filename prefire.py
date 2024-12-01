@@ -40,7 +40,7 @@ except (FileNotFoundError, ValueError):
         HIGHLIGHT = "purple"
     print(f"\n{SUCCESS} Wrote enemy highlight colour to config.txt\n{INFO} Now write your hotkey in config.txt\n")
     with open("config.txt", "w") as f:
-        f.write(f"Replace this first line with your hotkey.  e.g.  c   or   `   or even   ctrl + alt + z\n{HIGHLIGHT}")
+        f.write(f"u\n{HIGHLIGHT}")
     exit_()
 
 
